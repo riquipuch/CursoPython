@@ -5,7 +5,7 @@ print(type(55.645456))
 print(type(True))
 # Esto es un comentario
 '''Este también es un 
-comentario '''
+comentario.  '''
 # Iniciando el codigo
 nombre = input('Ingrese su nombre: ')
 apellido = input('Ingrese su apellido: ')
@@ -19,13 +19,16 @@ print(nombre_completo[:5])  # Desde el inicio a la posición 5
 print(nombre_completo[1:5])  # Desde la 1 hasta la 5
 print(nombre_completo[5:])  # Desde la 5 hasta el final
 print(nombre_completo[-1])  # Acceder al último elemento
-#
+
+#Operaciones básicas en Python
 x = 1e5
 print(2+2)
 print(2*5)
 print(2/4)
 print(2-6)
 print(2 ** 5)
+print(4//3) #Esta operación devuelve la parte entera de la respuesta: 1
+print(5%2) #Esta operación devuelve el residuo de la división: 1
 # Esta es otra manera de elevar un número a una potencia
 # Primero se escribe la base y luego el exponente (base, exponente)
 print(pow(2, 3))
