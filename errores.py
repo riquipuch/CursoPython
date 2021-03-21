@@ -1,6 +1,6 @@
-op = int(input('Ingrese un numero: '))
 try:
+    op = int(input('Ingrese un numero: '))
     if type(op) == int:
         print('Usted selecciono un numero')
-except type(op) == str:
+except TypeError:
     print('Ponga un numero')
